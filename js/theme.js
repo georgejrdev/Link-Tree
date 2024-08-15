@@ -26,7 +26,7 @@ function changeTheme() {
 function setTheme(theme) {
     const isDark = theme === 'dark'
     updateClasses(isDark)
-    elements.theme.style.backgroundImage = isDark ? 'url(../images/lightmode.png)' : 'url(../images/darkmode.png)'
+    elements.theme.style.backgroundImage = isDark ? 'url(images/lightmode.png)' : 'url(images/darkmode.png)'
 }
 
 function updateClasses(isDark) {
