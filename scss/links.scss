@@ -1,0 +1,14 @@
+#links {
+    margin: auto;
+    width: 350px;
+
+    .link {
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}

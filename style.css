@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.body-light {
+  background-color: #FFFFFF;
+}
+
+.body-dark {
+  background-color: #131313;
+}
+
+.letter-light {
+  color: #000000;
+}
+
+.letter-dark {
+  color: #FFFFFF;
+}
+
+.bar-top-light {
+  background-image: url("../images/bar-top-dark.png");
+}
+
+.bar-bottom-light {
+  background-image: url("../images/bar-bottom-dark.png");
+}
+
+.bar-top-dark {
+  background-image: url("../images/bar-top-light.png");
+}
+
+.bar-bottom-dark {
+  background-image: url("../images/bar-bottom-light.png");
+}
+
+.decoration-bar {
+  background-color: #FFAEAE;
+}
+
+#profile-image {
+  background-color: #F5F5F5;
+}
+
+#tstc {
+  background-color: #41B883;
+}
+#tstc:hover {
+  background-color: #194733;
+}
+
+#portfolio {
+  background-color: #945DFF;
+}
+#portfolio:hover {
+  background-color: #4200c3;
+}
+
+#blog {
+  background-color: #5282FF;
+}
+#blog:hover {
+  background-color: #0033b8;
+}
+
+#github {
+  background-color: #E5A33F;
+}
+#github:hover {
+  background-color: #7a5011;
+}
+
+#linkedin {
+  background-color: #E25858;
+}
+#linkedin:hover {
+  background-color: #891818;
+}
+
+.button {
+  background-color: #F5F5F5;
+}
+
+.button-light {
+  background-color: #000000;
+}
+
+.button-dark {
+  background-color: #FFFFFF;
+}
+
+#profile-image {
+  background-image: url("../images/profile.jpg");
+}
+
+.decoration-bar {
+  width: 100%;
+  height: 15px;
+  background-size: 35%;
+  background-position: center;
+}
+
+#decoration-bar-top {
+  margin-top: 25px;
+}
+
+#decoration-bar-bottom {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1023px) {
+  .decoration-bar {
+    background-size: 100%;
+  }
+}
+main #profile {
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+main #profile #profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+main #profile #profile-text p {
+  margin-top: 5px;
+  margin-left: 2px;
+  font-size: 20px;
+}
+
+#links {
+  margin: auto;
+  width: 350px;
+}
+#links .link {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#buttons {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+#buttons .button {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+body {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */

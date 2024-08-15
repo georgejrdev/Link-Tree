@@ -1,0 +1,134 @@
+$body-color-light: #FFFFFF;
+$letter-color-light: #000000;
+$tstc-color: #41B883;
+$portfolio-color: #945DFF;
+$blog-color: #5282FF;
+$github-color: #E5A33F;
+$linkedin-color: #E25858;
+$button-color-light: #000000;
+
+$body-color-dark: #131313;
+$letter-color-dark: #FFFFFF;
+$button-color-dark: #FFFFFF;
+
+$tstc-hover-color: darken($tstc-color, 30%);
+$portfolio-hover-color: darken($portfolio-color, 30%);
+$blog-hover-color: darken($blog-color, 30%);
+$github-hover-color: darken($github-color, 30%);
+$linkedin-hover-color: darken($linkedin-color, 30%);
+
+
+.body-light {
+    background-color: $body-color-light;
+}
+
+
+.body-dark {
+    background-color: $body-color-dark;
+}
+
+
+.letter-light {
+    color: $letter-color-light;
+}
+
+
+.letter-dark {
+    color: $letter-color-dark;
+}   
+
+
+.bar-top-light{
+    background-image: url('../images/bar-top-dark.png');
+}
+
+
+.bar-bottom-light{
+    background-image: url('../images/bar-bottom-dark.png');
+}
+
+
+.bar-top-dark{
+    background-image: url('../images/bar-top-light.png');
+}
+
+
+.bar-bottom-dark{
+    background-image: url('../images/bar-bottom-light.png');
+
+}
+
+
+.decoration-bar{
+    background-color: #FFAEAE;
+}
+
+
+#profile-image {
+    background-color: #F5F5F5;
+}
+
+
+#tstc {
+    background-color: $tstc-color;
+
+    &:hover {
+        background-color: $tstc-hover-color;
+    }
+}
+
+
+#portfolio {
+    background-color: $portfolio-color;
+
+    &:hover {
+        background-color: $portfolio-hover-color;
+    }
+}
+
+
+#blog {
+    background-color: $blog-color;
+
+    &:hover {
+        background-color: $blog-hover-color;
+    }
+}
+
+
+#github {
+    background-color: $github-color;
+
+    &:hover {
+        background-color: $github-hover-color;
+    }
+}
+
+
+#linkedin {
+    background-color: $linkedin-color;
+
+    &:hover {
+        background-color: $linkedin-hover-color;
+    }
+}
+
+
+.button {
+    background-color: #F5F5F5;
+}
+
+
+.button-light{
+    background-color: $button-color-light;
+}
+
+
+.button-dark{
+    background-color: $button-color-dark;
+}
+
+
+#profile-image{
+    background-image: url('../images/profile.jpg');
+}

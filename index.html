@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+    <title>LinkTree - George Júnior</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body-light">
+    <div class="decoration-bar bar-top-light" id="decoration-bar-top"></div>
+
+    <main>
+        <div id="profile">
+            <div id="profile-image"></div>
+            <div id="profile-text">
+                <h1 class="letter-light" id="name">George Júnior</h1>
+                <p class="letter-light" id="job">FullStack Developer</p>
+            </div>
+        </div>
+
+        <section id="links">
+            <div onclick="window.open('https://official-tstc.github.io/web', '_blank')" id="tstc" class="link">
+                <p class="link-text">TSTC</p>
+            </div>
+
+            <div onclick="window.open('https://portfolio-georgejrdev.vercel.app/', '_blank')" id="portfolio" class="link">
+                <p class="link-text">Portfólio</p>
+            </div>
+
+            <div onclick="window.open('https://portfolio-georgejrdev.vercel.app/blog', '_blank')" id="blog" class="link">
+                <p class="link-text">Blog</p>
+            </div>
+
+            <div onclick="window.open('https://github.com/georgejrdev', '_blank')" id="github" class="link">
+                <p class="link-text">GitHub</p>
+            </div>
+
+            <div onclick="window.open('https://www.linkedin.com/in/georgejrdev', '_blank')" id="linkedin" class="link">
+                <p class="link-text">LinkedIn</p>
+            </div>
+        </section>
+
+        <div id="buttons">
+            <div onclick="changeTheme()" class="button button-light" id="theme"></div>
+        </div>
+    </main>
+
+    <div class="decoration-bar bar-bottom-light" id="decoration-bar-bottom"></div>
+
+    <script src="js/content.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
