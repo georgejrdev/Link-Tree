@@ -95,6 +95,20 @@
   background-image: url("../images/profile.jpg");
 }
 
+#links {
+  margin: auto;
+  width: 350px;
+}
+#links .link {
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .decoration-bar {
   width: 100%;
   height: 15px;
@@ -135,20 +149,6 @@ main #profile #profile-text p {
   margin-top: 5px;
   margin-left: 2px;
   font-size: 20px;
-}
-
-#links {
-  margin: auto;
-  width: 350px;
-}
-#links .link {
-  margin-top: 20px;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 }
 
 #buttons {
