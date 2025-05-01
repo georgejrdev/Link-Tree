@@ -10,12 +10,12 @@ function changeLanguage(lang) {
 const lang = 
     (localStorage.getItem('lang') !== null && localStorage.getItem('lang') !== undefined) 
     ? localStorage.getItem('lang') 
-    : 'ptbr';
+    : 'pt';
 
 saveLang(lang);
 
 const text = {
-    ptbr: {
+    pt: {
         aboutPortfolio: "Conheça mais sobre mim. Veja meus projetos e habilidades.",
         aboutLinkedin: "Um pouco da minha trajetória e alguns posts técnicos.",
         aboutVocabulary: "Que tal praticar seu inglês e aumentar seu vocabulário? Se divirta enquanto aprende.",
