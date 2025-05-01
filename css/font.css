@@ -1,0 +1,22 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+.font-small {
+    font-size: 0.875rem;
+}
+
+.font-large {
+    font-size: 1.5rem;
+    padding: 0px;
+}
+
+.info-header-text {
+    font-size: 1rem;
+    color: #FFF;
+    padding: 0px;
+}
