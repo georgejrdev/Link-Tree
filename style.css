@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div#themes-container {
+    position: fixed;
+    top: 32px;
+    right: 32px;
+    padding: 4px;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-selector-background-color);
+}
+
+div.theme {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+div#button-theme-light {
+    background-color: var(--theme-selector-light-background-color);
+}
+
+div#button-theme-off-white {
+    background-color: var(--theme-selector-off-white-background-color);
+}
+
+
+div#button-theme-dark {
+    background-color: var(--theme-selector-dark-background-color);
+}
+
+h1 {
+    color: var(--text-color);
+    font-weight: lighter;
+    font-size: 96px;
+}
+
+p {
+    color: var(--text-color);
+}
+
+p#description {
+    font-size: 32px;
+    margin-left: 5px;
+}
+
+div#links-container {
+    gap: 32px;
+    margin-top: 48px;
+}
+
+div.link {
+    width: 320px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#link-linkedin {
+    background-image: var(--linkedin-banner);
+}
+
+div#link-github {
+    background-image: var(--github-banner);
+}
+
+div#link-blog {
+    background-image: var(--blog-banner);
+}
+
+div#link-lattes {
+    background-image: var(--lattes-banner);
+}
