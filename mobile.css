@@ -3,6 +3,11 @@
         padding: 50px;
     }
 
+    div#themes-container {
+        top: 16px;
+        right: 16px;
+    }
+
     h1, p {
         margin: 0;
         text-align: center;
