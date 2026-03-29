@@ -2,92 +2,67 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
 }
 
 body {
-    padding-top: 80px;
-    padding-left: 100px;
-    padding-bottom: 100px;
-    padding-right: 50px;
-    background-color: var(--background-color);
+    background-color: #18181D;
 }
 
-.container {
+header {
+    margin-top: 64px;
     display: flex;
-    flex-wrap: wrap;
-}
-
-div#themes-container {
-    position: fixed;
-    top: 32px;
-    right: 32px;
-    padding: 4px;
-    gap: 8px;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: var(--theme-selector-background-color);
 }
 
-div.theme {
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
-}
-
-div#button-theme-light {
-    background-color: var(--theme-selector-light-background-color);
-}
-
-div#button-theme-off-white {
-    background-color: var(--theme-selector-off-white-background-color);
-}
-
-
-div#button-theme-dark {
-    background-color: var(--theme-selector-dark-background-color);
+#profile-picture {
+    box-sizing: content-box;
+    width: 128px;
+    height: 128px;
+    background-color: #F5F5F5;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+    background-image: url("./profile-picture.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 h1 {
-    color: var(--text-color);
-    font-weight: lighter;
-    font-size: 96px;
+    margin-top: 16px;
 }
 
-p {
-    color: var(--text-color);
+p#about {
+    margin-top: 8px;
 }
 
-p#description {
-    font-size: 32px;
-    margin-left: 5px;
+main {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
-div#links-container {
-    gap: 32px;
-    margin-top: 48px;
+a {
+    width: 300px;
+    height: 64px;
+    background-color: #fe0000;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    line-height: 64px;
 }
 
-div.link {
-    width: 320px;
-    height: 200px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+a#github {
+    background-color: #2C2C2C;
 }
 
-div#link-linkedin {
-    background-image: var(--linkedin-banner);
+a#linkedin {
+    background-color: #477ABC;
 }
 
-div#link-github {
-    background-image: var(--github-banner);
-}
-
-div#link-blog {
-    background-image: var(--blog-banner);
-}
-
-div#link-lattes {
-    background-image: var(--lattes-banner);
+a#lattes {
+    background-color: #235945;
 }

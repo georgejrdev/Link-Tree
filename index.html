@@ -4,43 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Tree</title>
-
-    <link rel="stylesheet" href="./colors.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container" id="themes-container">
-            <div class="theme" id="button-theme-light" onclick="setTheme('light-theme')"></div>
-            <div class="theme" id="button-theme-off-white" onclick="setTheme('off-white-theme')"></div>
-            <div class="theme" id="button-theme-dark" onclick="setTheme('dark-theme')"></div>
-        </div>
-
+        <div id="profile-picture"></div>
         <h1>George Júnior</h1>
-        <p id="description">Programmer for 5 years and future Bachelor in History</p>
+        <p id="about">programmer for 6 years and future historian</p>
     </header>
-
     <main>
-        <div class="container" id="links-container">
-            <a href="https://georgejrdev.github.io/redirect?to=linkedin" target="_blank">
-                <div class="link" id="link-linkedin"></div>
-            </a>
-
-            <a href="https://georgejrdev.github.io/redirect?to=github" target="_blank">
-                <div class="link" id="link-github"></div>
-            </a>
-
-            <a href="https://georgejrdev.github.io/redirect?to=blog" target="_blank">
-                <div class="link" id="link-blog"></div>
-            </a>
-
-            <a href="https://georgejrdev.github.io/redirect?to=lattes" target="_blank">
-                <div class="link" id="link-lattes"></div>
-            </a>
-        </div>
+        <a id="github" href="https://georgejrdev.github.io/redirect/?to=github" target="_blank">GITHUB</a>
+        <a id="linkedin" href="https://georgejrdev.github.io/redirect/?to=linkedin" target="_blank">LINKEDIN</a>
+        <a id="lattes" href="https://georgejrdev.github.io/redirect/?to=lattes" target="_blank">LATTES</a>
     </main>
-    
-    <script src="./script.js"></script>
 </body>
 </html>
