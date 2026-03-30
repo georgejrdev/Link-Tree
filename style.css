@@ -48,7 +48,6 @@ main {
 a {
     width: 300px;
     height: 64px;
-    background-color: #fe0000;
     font-family: "Inter", sans-serif;
     text-align: center;
     font-size: 20px;
@@ -57,6 +56,10 @@ a {
 
 a#github {
     background-color: #2C2C2C;
+}
+
+a#portfolio {
+    background-color: #594023;
 }
 
 a#linkedin {
